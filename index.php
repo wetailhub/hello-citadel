@@ -4,7 +4,7 @@
  * Plugin URI: https://wetail.io
  * Description: Sample plugin for testing Citadel integration
  * Author: Wetail AB
- * Version: 0.0.1
+ * Version: 0.0.2
  * Author URI: https://wetail.io
  * License: GPL-3.0
  * License URI: http://www.gnu.org/licenses/gpl-3.0.txt
@@ -32,7 +32,7 @@ add_action('wp_footer', function(){
 	</style>
 	<div class="helcita vis" onclick="this.classList.remove('vis')">
 		<p>
-			Hello, Citadel!
+			Hello, Citadel! Version 2!
 		</p>
 	</div>
 	<?php
